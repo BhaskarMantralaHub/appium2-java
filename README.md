@@ -24,7 +24,7 @@ https://appium.io/docs/en/2.0/intro/requirements/
 
     https://developer.apple.com/xcode/resources/
 
-**_Appstore app_**
+> Appstore app
 
 ## Setup Appium Server CLI and Drivers (Android and IOS) using Appium Installer
 
