@@ -30,7 +30,7 @@ Install Appium Installer from https://www.npmjs.com/package/appium-installer
 
 **[Appium Server Installation Logs](appium-server-setup.txt)**
 
-## Setup Android Environment 
+## Setup Android Environment (Download Android Studio instead)
 
 Install required packages using following command:
    > appium-installer
@@ -51,7 +51,7 @@ Install required packages using following command:
 
 **[Android Environment Setup Logs](android-environment-setup.txt)**
 
-## Set Android Home Path
+## Set Android Home Path (Download Android Studio instead)
 
 * Open Bash profile 
 ```shell
