@@ -1,0 +1,17 @@
+❯ ~ appium-installer
+
+👋 Hello, Appium user ✨
+
+? Select an option Install Appium Server
+
+⠋ Installing Appium Servernpm WARN deprecated typedoc-plugin-resolve-crossmodule-references@0.3.3: Upgrade to typedoc >= 0.24 and remove typedoc-plugin-resolve-crossmodule-references from your dependencies
+
+changed 424 packages in 8s
+
+48 packages are looking for funding
+  run `npm fund` for details
+2.0.0-rc.3
+✔ 💥 💥 💥 Successfully installed server version 2.0.0-rc.3
+
+
+Install Appium Server COMPLETED

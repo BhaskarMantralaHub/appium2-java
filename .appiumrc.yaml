@@ -1,0 +1,6 @@
+#https://appium.io/docs/en/2.0/guides/config/
+server:
+  log-level: info
+  log-no-colors: false
+  log-timestamp: true
+  long-stacktrace: false

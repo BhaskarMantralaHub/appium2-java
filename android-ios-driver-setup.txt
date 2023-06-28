@@ -1,0 +1,74 @@
+❯ ~ appium-installer
+
+👋 Hello, Appium user ✨
+
+? Select an option Install Appium Server
+
+⠋ Installing Appium Servernpm WARN deprecated typedoc-plugin-resolve-crossmodule-references@0.3.3: Upgrade to typedoc >= 0.24 and remove typedoc-plugin-resolve-crossmodule-references from your dependencies
+
+changed 424 packages in 8s
+
+48 packages are looking for funding
+  run `npm fund` for details
+2.0.0-rc.3
+✔ 💥 💥 💥 Successfully installed server version 2.0.0-rc.3
+
+
+Install Appium Server COMPLETED
+
+? Select an option Install Appium Drivers
+
+⠋ Fetching available official drivers{
+    "uiautomator2": {
+        "pkgName": "appium-uiautomator2-driver",
+        "installed": false
+    },
+    "xcuitest": {
+        "pkgName": "appium-xcuitest-driver",
+        "installed": false
+    },
+    "mac2": {
+        "pkgName": "appium-mac2-driver",
+        "installed": false
+    },
+    "espresso": {
+        "pkgName": "appium-espresso-driver",
+        "installed": false
+    },
+    "safari": {
+        "pkgName": "appium-safari-driver",
+        "installed": false
+    },
+    "gecko": {
+        "pkgName": "appium-geckodriver",
+        "installed": false
+    },
+    "chromium": {
+        "pkgName": "appium-chromium-driver",
+        "installed": false
+    }
+}
+✔ Fetching available official drivers
+? Select Drivers to install uiautomator2, xcuitest
+- Installing 'uiautomator2' using NPM install spec 'appium-uiautomator2-driver'
+✔ Installing 'uiautomator2' using NPM install spec 'appium-uiautomator2-driver'
+ℹ Driver uiautomator2@2.29.0 successfully installed
+- automationName: UiAutomator2
+- platformNames: ["Android"]
+- Installing 'xcuitest' using NPM install spec 'appium-xcuitest-driver'
+✔ Installing 'xcuitest' using NPM install spec 'appium-xcuitest-driver'
+ℹ Driver xcuitest@4.32.10 successfully installed
+- automationName: XCUITest
+- platformNames: ["iOS","tvOS"]
+
+Install Appium Drivers COMPLETED
+
+? Select an option (Use arrow keys)
+❯ Need help setting up Android Environment to run your Appium test?
+  Need help setting up iOS Environment to run your Appium test?
+  Install Appium Server
+  Install Appium Drivers
+  Install Appium Plugin
+  Run Appium Doctor
+  Launch Emulators/Simulators
+(Move up and down to reveal more choices)

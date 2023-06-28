@@ -1,0 +1,12 @@
+❯ ~ appium-installer
+
+👋 Hello, Appium user ✨
+
+? Select an option Install Appium Plugin
+? Select Plugins to install appium-wait-plugin
+? Source  npm
+
+- Installing 'appium-wait-plugin'
+✔ Installing 'appium-wait-plugin'
+ℹ Plugin element-wait@2.0.3 successfully installed
+Install Appium Plugin COMPLETED
