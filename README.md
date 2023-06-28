@@ -20,12 +20,6 @@ https://appium.io/docs/en/2.0/intro/requirements/
 
 ## What is Real device (iOS, Android, Windows, Mac)?
 
-## Download XCode for IOS Simulator 
-
-    https://developer.apple.com/xcode/resources/
-
-> Appstore app
-
 ## Setup Appium Server CLI and Drivers (Android and IOS) using Appium Installer
 
 Install Appium Installer from https://www.npmjs.com/package/appium-installer
@@ -81,6 +75,16 @@ Install required packages using following command:
   echo $ANDROID_HOME
 ```
 
+## Setup Android Emulator using Android Studio
+
+Download Android Studio from here: https://developer.android.com/studio
+
+## Setup IOS Simulator using XCode
+
+Download IOS Xcode from here: https://developer.apple.com/xcode/resources/
+
+> Appstore app
+
 
 ## Setup Android and IOS drivers
 
@@ -109,3 +113,28 @@ Install required packages using following command:
     </dependency>
 ```
 
+## Check Appium version (Suppose to be 2.x)
+
+```shell
+appium -v
+```
+
+## Setup Appium Inspector (Locator Finder)
+
+Download from here - https://github.com/appium/appium-inspector/releases
+
+> .dmg extension file for mac
+
+## Start Appium Server (CLI)
+
+> Server config can be updated from [Appium Config](.appiumrc.yaml)
+
+> CLI Args - https://appium.io/docs/en/2.0/cli/args/
+
+```shell
+appium
+```
+
+## Desired capabilities
+
+https://appium.io/docs/en/2.0/guides/caps/
