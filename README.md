@@ -119,11 +119,18 @@ Download IOS Xcode from here: https://developer.apple.com/xcode/resources/
 appium -v
 ```
 
+***********
 ## Setup Appium Inspector (Locator Finder)
 
 Download from here - https://github.com/appium/appium-inspector/releases
 
 > .dmg extension file for mac
+
+**OR** use Selenide
+
+Setup from here - https://github.com/selenide/selenide/tree/main/modules/appium
+
+***********
 
 ## Start Appium Server (CLI)
 
@@ -135,6 +142,12 @@ Download from here - https://github.com/appium/appium-inspector/releases
 appium
 ```
 
-## Desired capabilities
+## Desired capabilities (W3C Capabilities)
 
 https://appium.io/docs/en/2.0/guides/caps/
+
+> Appium client takes care of it (java-client 8.x version or above)
+
+## Launch Simulator (IOS / Xcode)
+
+> Xcode installs simulator app - Open from Applications
