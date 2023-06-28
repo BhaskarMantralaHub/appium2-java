@@ -4,7 +4,7 @@
 
 ## Appium 2 architecture?
 
-![](img.png)
+![](architecture-diag.png)
 
 ## Requirements
 
