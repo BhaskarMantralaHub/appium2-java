@@ -151,3 +151,13 @@ https://appium.io/docs/en/2.0/guides/caps/
 ## Launch Simulator (IOS / Xcode)
 
 > Xcode installs simulator app - Open from Applications
+
+## Setup Android Virtual Devices
+
+![](src/main/resources/images/Android-virtual-devices-config.png)
+
+## Find list of devices on iOS Simulator
+
+> xcrun simctl list
+
+> xcrun simctl list devicetypes
