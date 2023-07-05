@@ -30,55 +30,6 @@ Install Appium Installer from https://www.npmjs.com/package/appium-installer
 
 **[Appium Server Installation Logs](appium-server-setup.txt)**
 
-## Setup Android Environment (Download Android Studio instead)
-
-Install required packages using following command:
-   > appium-installer
-    
-``` 
-    👋 Hello, Appium user ✨
-    
-    ? Select an option (Use arrow keys)
-    ❯ Need help setting up Android Environment to run your Appium test?
-    Need help setting up iOS Environment to run your Appium test?
-    Install Appium Server
-    Install Appium Drivers
-    Install Appium Plugin
-    Run Appium Doctor
-    Launch Emulators/Simulators
-    (Move up and down to reveal more choices)
-   ```
-
-**[Android Environment Setup Logs](android-environment-setup.txt)**
-
-## Set Android Home Path (Download Android Studio instead)
-
-* Open Bash profile 
-```shell
-  vim ~/.zshrc
-```
-
-* Set android path as below and save
-```
-    export ANDROID_HOME=/Users/$USER/Library/Android/sdk
-    export PATH=$ANDROID_HOME/platform-tools:$PATH
-    export PATH=$ANDROID_HOME/tools:$PATH
-    export PATH=$ANDROID_HOME/tools/bin:$PATH
-```
-
-* Update profile changes
-```shell
-  source ~/.zshrc
-```
-* Check Android home path
-```shell
-  echo $ANDROID_HOME
-```
-
-## Setup Android Emulator using Android Studio
-
-Download Android Studio from here: https://developer.android.com/studio
-
 ## Setup IOS Simulator using XCode
 
 Download IOS Xcode from here: https://developer.apple.com/xcode/resources/
@@ -96,6 +47,10 @@ Download IOS Xcode from here: https://developer.apple.com/xcode/resources/
 |----------------------------|---------|---------------------------------------------------------|
 | appium-uiautomator2-driver | Android | https://github.com/appium/appium-uiautomator2-driver    |
 | appium-xcuitest-driver     | iOS     | https://appium.github.io/appium-xcuitest-driver/4.32.7/ |
+
+All the drivers will be installed in this location:
+
+> /Users/$USER/.appium/node_modules
 
 ## Setup Appium Plugins
 
@@ -117,6 +72,28 @@ Download IOS Xcode from here: https://developer.apple.com/xcode/resources/
 
 ```shell
 appium -v
+```
+
+## Setup Appium Doctor
+
+```shell
+npm install appium-doctor -g
+```
+
+```
+➜  appium-doctor -h
+
+Usage: appium-doctor.js [options, defaults: --ios --android]
+
+Options:
+  --ios       Check iOS setup                             [boolean]
+  --android   Check Android setup                         [boolean]
+  --dev       Check dev setup                             [boolean]
+  --debug     Show debug messages                         [boolean]
+  --yes       Always respond yes                          [boolean]
+  --no        Always respond no                           [boolean]
+  --demo      Run appium-doctor demo (for dev).           [boolean]
+  -h, --help  Show help                                   [boolean]
 ```
 
 ***********
@@ -152,12 +129,12 @@ https://appium.io/docs/en/2.0/guides/caps/
 
 > Xcode installs simulator app - Open from Applications
 
-## Setup Android Virtual Devices
-
-![](src/main/resources/images/Android-virtual-devices-config.png)
-
 ## Find list of devices on iOS Simulator
 
 > xcrun simctl list
 
 > xcrun simctl list devicetypes
+
+## Android Setup
+
+[ANDROID.md](ANDROID.md)
