@@ -20,24 +20,6 @@ public class RemoteCapabilities implements ICaps {
         return androidOptions;
     }
 
-    public DesiredCapabilities getRemoteAndroidCaps() {
-        // Use Java Client v6.0.0 or above
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        HashMap<String, Object> browserstackOptions = new HashMap<String, Object>();
-        browserstackOptions.put("appiumVersion", "2.0.0");
-        browserstackOptions.put("automationVersion", "latest");
-        browserstackOptions.put("userName", "bhaskarsarma_AdqIBJ");
-        browserstackOptions.put("accessKey", "qxnQ46F26zAeDcTgmk6D");
-        capabilities.setCapability("bstack:options", browserstackOptions);
-        capabilities.setCapability("platformName", "android");
-        capabilities.setCapability("platformVersion", "13.0");
-        capabilities.setCapability("deviceName", "Samsung Galaxy S23 Ultra");
-        capabilities.setCapability("app", "bs://23ee57ce1c1f9214c0d65c28ce363cf422d58913");
-        capabilities.setCapability("userName", "bhaskarsarma_AdqIBJ");
-        capabilities.setCapability("accessKey", "qxnQ46F26zAeDcTgmk6D");
-        return capabilities;
-    }
-
     public XCUITestOptions getIosCaps() {
         XCUITestOptions iosOptions = new XCUITestOptions();
         iosOptions.setPlatformName("iOS");
