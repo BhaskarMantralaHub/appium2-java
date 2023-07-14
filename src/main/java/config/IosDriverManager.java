@@ -10,8 +10,7 @@ public class IosDriverManager implements MobileDriver {
     public void launch() {
         System.out.printf("URL is " + PropertyReader.getProperty("SERVER_URL"));
         try {
-            Capabilities capabilities = new Capabilities();
-            IOSDriver androidDriver = new IOSDriver(new URL(PropertyReader.getProperty("SERVER_URL")), capabilities.getIosCaps());
+            IOSDriver androidDriver = new IOSDriver(new URL(PropertyReader.getProperty("SERVER_URL")), DriverFactoryManager.capabilities().getIosCaps());
             Thread.sleep(10000);
         } catch (MalformedURLException | InterruptedException e) {
             throw new RuntimeException(e);

@@ -3,9 +3,9 @@ package config;
 public class Env {
 
     public static boolean isLocal() {
-        String driverType = PropertyReader.getProperty("DRIVER_TYPE");
-        if (driverType == null) throw new IllegalArgumentException("DRIVER_TYPE cannot be null from application properties");
-        return driverType.trim().equalsIgnoreCase("LOCAL");
+        String isRemote = PropertyReader.getProperty("IS_REMOTE");
+        if (isRemote == null) return true;
+        return !isRemote.trim().equalsIgnoreCase("TRUE");
     }
 
     public static String getDeviceType() {

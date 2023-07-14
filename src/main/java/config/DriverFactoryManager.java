@@ -1,11 +1,12 @@
 package config;
 
+import interfaces.ICaps;
+
 public class DriverFactoryManager {
 
-    public String getDriver() {
+    public static ICaps capabilities() {
         boolean isLocal = Env.isLocal();
-        String deviceType = Env.getDeviceType();
-        return deviceType + isLocal;
+        return isLocal ? new Capabilities() : new RemoteCapabilities();
     }
 
 }
