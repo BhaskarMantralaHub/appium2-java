@@ -5,6 +5,6 @@ import io.appium.java_client.ios.options.XCUITestOptions;
 
 public interface ICaps {
 
-    public UiAutomator2Options getAndroidCaps();
-    public XCUITestOptions getIosCaps();
+    UiAutomator2Options getAndroidCaps();
+    XCUITestOptions getIosCaps();
 }

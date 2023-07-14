@@ -4,7 +4,6 @@ import interfaces.ICaps;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.ios.options.XCUITestOptions;
 import io.appium.java_client.remote.AutomationName;
-import org.openqa.selenium.remote.CapabilityType;
 
 public class Capabilities implements ICaps {
 
