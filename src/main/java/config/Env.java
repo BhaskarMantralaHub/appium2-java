@@ -13,4 +13,12 @@ public class Env {
         return deviceType;
     }
 
+    public static String getServerUrl() {
+        return PropertyReader.getProperty("SERVER_URL");
+    }
+
+    public static String getEnvironment() {
+        return PropertyReader.getProperty("ENV");
+    }
+
 }
